@@ -26,10 +26,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmO-J2-XXf">
-                    <rect key="frame" x="0.0" y="59" width="393" height="179"/>
+                    <rect key="frame" x="0.0" y="59.000000000000014" width="393" height="153.33333333333337"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Kf-TI-ewX">
-                            <rect key="frame" x="80" y="0.0" width="233" height="60"/>
+                            <rect key="frame" x="80" y="35" width="233" height="60"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iDevFan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2g4-Y5-XS7">
                                     <rect key="frame" x="0.0" y="0.0" width="233" height="60"/>
@@ -43,7 +43,7 @@
                                 <constraint firstAttribute="height" constant="60" id="13V-Hg-3OO"/>
                                 <constraint firstAttribute="trailing" secondItem="2g4-Y5-XS7" secondAttribute="trailing" id="ARz-3I-ehL"/>
                                 <constraint firstItem="2g4-Y5-XS7" firstAttribute="leading" secondItem="3Kf-TI-ewX" secondAttribute="leading" id="Bkz-3t-WT2"/>
-                                <constraint firstItem="2g4-Y5-XS7" firstAttribute="top" secondItem="3Kf-TI-ewX" secondAttribute="top" id="ESM-ug-gm9"/>
+                                <constraint firstItem="2g4-Y5-XS7" firstAttribute="top" secondItem="3Kf-TI-ewX" secondAttribute="top" id="KcF-iB-8K5"/>
                                 <constraint firstAttribute="bottom" secondItem="2g4-Y5-XS7" secondAttribute="bottom" id="akv-eb-kmY"/>
                             </constraints>
                         </view>
@@ -52,7 +52,7 @@
                     <constraints>
                         <constraint firstItem="3Kf-TI-ewX" firstAttribute="leading" secondItem="pmO-J2-XXf" secondAttribute="leading" constant="80" id="GTh-l1-thc"/>
                         <constraint firstAttribute="trailing" secondItem="3Kf-TI-ewX" secondAttribute="trailing" constant="80" id="Z1t-SE-FGY"/>
-                        <constraint firstItem="3Kf-TI-ewX" firstAttribute="top" secondItem="pmO-J2-XXf" secondAttribute="top" id="aqq-qy-gFo"/>
+                        <constraint firstItem="3Kf-TI-ewX" firstAttribute="top" secondItem="pmO-J2-XXf" secondAttribute="top" constant="35" id="xgw-XU-8F5"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2fI-n2-7l3">
@@ -84,7 +84,7 @@
                             </subviews>
                         </stackView>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="b8h-ni-di6">
-                            <rect key="frame" x="0.0" y="15" width="393" height="544"/>
+                            <rect key="frame" x="0.0" y="5" width="393" height="554"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                     </subviews>
@@ -92,7 +92,7 @@
                     <constraints>
                         <constraint firstItem="zLC-fr-x8p" firstAttribute="top" secondItem="b8h-ni-di6" secondAttribute="bottom" id="5lX-rU-Ior"/>
                         <constraint firstAttribute="bottom" secondItem="zLC-fr-x8p" secondAttribute="bottom" constant="40" id="FtD-8v-wVn"/>
-                        <constraint firstItem="b8h-ni-di6" firstAttribute="top" secondItem="2fI-n2-7l3" secondAttribute="top" constant="15" id="Le2-Ut-ohw"/>
+                        <constraint firstItem="b8h-ni-di6" firstAttribute="top" secondItem="2fI-n2-7l3" secondAttribute="top" constant="5" id="Le2-Ut-ohw"/>
                         <constraint firstAttribute="trailing" secondItem="b8h-ni-di6" secondAttribute="trailing" id="WSH-bh-c7n"/>
                         <constraint firstItem="b8h-ni-di6" firstAttribute="leading" secondItem="2fI-n2-7l3" secondAttribute="leading" id="fn5-qc-Fc6"/>
                         <constraint firstAttribute="trailing" secondItem="zLC-fr-x8p" secondAttribute="trailing" constant="20" id="k3S-cc-fwJ"/>
@@ -108,7 +108,7 @@
                 <constraint firstAttribute="bottom" secondItem="2fI-n2-7l3" secondAttribute="bottom" id="6ry-xs-BtM"/>
                 <constraint firstItem="pmO-J2-XXf" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="AxJ-0P-wwK"/>
                 <constraint firstItem="pmO-J2-XXf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="IS0-oZ-qYg"/>
-                <constraint firstItem="pmO-J2-XXf" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.21" id="Z6L-JY-Tf2"/>
+                <constraint firstItem="pmO-J2-XXf" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.18" id="Z6L-JY-Tf2"/>
                 <constraint firstItem="2fI-n2-7l3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cxp-sM-HJE"/>
                 <constraint firstItem="pmO-J2-XXf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="gMG-Pp-NNf"/>
             </constraints>
@@ -118,7 +118,7 @@
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="119"/>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

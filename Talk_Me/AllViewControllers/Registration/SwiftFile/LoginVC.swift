@@ -28,12 +28,14 @@ class LoginVC: UIViewController {
         configureTapGuest()
     }
 
+    // MARK: Setting TextField
     private func setTextField() {
         
         emailTF.delegate = self
         parolTF.delegate = self
     }
     
+    // MARK: Setting UITapGesture
     private func configureTapGuest() {
         
         let tapGuest = UITapGestureRecognizer(target: self, action: #selector(tapGestBtn))
@@ -45,12 +47,14 @@ class LoginVC: UIViewController {
         view.endEditing(true)
     }
     
+    // MARK: Setting SingUp Button
     @IBAction func singUpBtn(_ sender: Any) {
         
         let vc = SingUPVC(nibName: "SingUPVC", bundle: nil)
         navigationController?.pushViewController(vc, animated: true)
     }
     
+    // MARK: Setting Go Button
     @IBAction func goBtn(_ sender: Any) {
         
         if let email = emailTF.text, let password = parolTF.text {
@@ -67,6 +71,8 @@ class LoginVC: UIViewController {
             }
         }
     }
+    
+    // MARK: Setting Hidden Text Button
     @IBAction func eyeBtn(_ sender: UIButton) {
         if parolTF.isSecureTextEntry == true {
             parolTF.isSecureTextEntry = false
@@ -78,6 +84,7 @@ class LoginVC: UIViewController {
     }
 }
 
+// MARK: TextField Delegate
 extension LoginVC: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

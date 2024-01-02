@@ -18,7 +18,7 @@ class WelcomeVC: UIViewController {
         loginBtn.layer.cornerRadius = 15
         
     }
-
+    // MARK: Setting SingUp Button
     @IBAction func singUpBtn(_ sender: UIButton) {
         
         let sing = SingUPVC(nibName: "SingUPVC", bundle: nil)
@@ -26,6 +26,7 @@ class WelcomeVC: UIViewController {
         navigationController?.pushViewController(sing, animated: true)
     }
     
+    // MARK: Setting Login Button
     @IBAction func loginBtn(_ sender: UIButton) {
         
         let login = LoginVC(nibName: "LoginVC", bundle: nil)

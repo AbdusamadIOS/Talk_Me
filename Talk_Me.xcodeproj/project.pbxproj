@@ -7,25 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920F1262A6E738E6DAFB4C83 /* Pods_Talk_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C934EECC1E6B28AADAF6021D /* Pods_Talk_Me.framework */; };
+		EE12F3E32B3D6C3100074E1D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12F3E22B3D6C3100074E1D /* Constants.swift */; };
+		EE418CD22B3F0B05009A65CC /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE418CD12B3F0B05009A65CC /* UserDefaults.swift */; };
+		EE6E2E282B4044700078E327 /* AdjustmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E2E262B4044700078E327 /* AdjustmentVC.swift */; };
+		EE6E2E292B4044700078E327 /* AdjustmentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6E2E272B4044700078E327 /* AdjustmentVC.xib */; };
+		EE6E2E2B2B4065260078E327 /* AdjustmentDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E2E2A2B4065260078E327 /* AdjustmentDM.swift */; };
 		EECFC5492B173A640004E71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFC5482B173A640004E71D /* AppDelegate.swift */; };
-		EECFC54B2B173A640004E71D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFC54A2B173A640004E71D /* SceneDelegate.swift */; };
-		EECFC54D2B173A640004E71D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFC54C2B173A640004E71D /* ViewController.swift */; };
-		EECFC5502B173A640004E71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECFC54E2B173A640004E71D /* Main.storyboard */; };
 		EECFC5532B173A640004E71D /* Talk_Me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EECFC5512B173A640004E71D /* Talk_Me.xcdatamodeld */; };
 		EECFC5552B173A650004E71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECFC5542B173A650004E71D /* Assets.xcassets */; };
 		EECFC5582B173A650004E71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECFC5562B173A650004E71D /* LaunchScreen.storyboard */; };
+		EECFC5612B173C6E0004E71D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFC55F2B173C6E0004E71D /* WelcomeVC.swift */; };
+		EECFC5622B173C6E0004E71D /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECFC5602B173C6E0004E71D /* WelcomeVC.xib */; };
+		EECFC5692B173CB80004E71D /* SingUPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFC5672B173CB80004E71D /* SingUPVC.swift */; };
+		EECFC56A2B173CB80004E71D /* SingUPVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECFC5682B173CB80004E71D /* SingUPVC.xib */; };
+		EECFC56F2B173D760004E71D /* TalkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFC56D2B173D760004E71D /* TalkVC.swift */; };
+		EECFC5702B173D760004E71D /* TalkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECFC56E2B173D760004E71D /* TalkVC.xib */; };
+		EECFC5732B173D9C0004E71D /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFC5712B173D9C0004E71D /* ProfilVC.swift */; };
+		EECFC5742B173D9C0004E71D /* ProfilVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECFC5722B173D9C0004E71D /* ProfilVC.xib */; };
+		EECFC5772B175F7E0004E71D /* TalkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFC5752B175F7E0004E71D /* TalkCell.swift */; };
+		EECFC5782B175F7E0004E71D /* TalkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECFC5762B175F7E0004E71D /* TalkCell.xib */; };
+		EECFC57B2B1762A00004E71D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFC5792B1762A00004E71D /* LoginVC.swift */; };
+		EECFC57C2B1762A00004E71D /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECFC57A2B1762A00004E71D /* LoginVC.xib */; };
+		EEEDA7682B18911A00F5471F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEEDA7672B18911900F5471F /* GoogleService-Info.plist */; };
+		EEF824512B3C1EF000117A5F /* MessageDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF824502B3C1EF000117A5F /* MessageDM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000D9248A1D2F77855A75FBB /* Pods-Talk_Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk_Me.release.xcconfig"; path = "Target Support Files/Pods-Talk_Me/Pods-Talk_Me.release.xcconfig"; sourceTree = "<group>"; };
+		7AC3CD098EFB274EFB5B8987 /* Pods-Talk_Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk_Me.debug.xcconfig"; path = "Target Support Files/Pods-Talk_Me/Pods-Talk_Me.debug.xcconfig"; sourceTree = "<group>"; };
+		C934EECC1E6B28AADAF6021D /* Pods_Talk_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Talk_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE12F3E22B3D6C3100074E1D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EE418CD12B3F0B05009A65CC /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		EE6E2E262B4044700078E327 /* AdjustmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustmentVC.swift; sourceTree = "<group>"; };
+		EE6E2E272B4044700078E327 /* AdjustmentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdjustmentVC.xib; sourceTree = "<group>"; };
+		EE6E2E2A2B4065260078E327 /* AdjustmentDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustmentDM.swift; sourceTree = "<group>"; };
 		EECFC5452B173A640004E71D /* Talk_Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talk_Me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECFC5482B173A640004E71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EECFC54A2B173A640004E71D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EECFC54C2B173A640004E71D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EECFC54F2B173A640004E71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EECFC5522B173A640004E71D /* Talk_Me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Talk_Me.xcdatamodel; sourceTree = "<group>"; };
 		EECFC5542B173A650004E71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EECFC5572B173A650004E71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EECFC5592B173A650004E71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECFC55F2B173C6E0004E71D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		EECFC5602B173C6E0004E71D /* WelcomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeVC.xib; sourceTree = "<group>"; };
+		EECFC5672B173CB80004E71D /* SingUPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUPVC.swift; sourceTree = "<group>"; };
+		EECFC5682B173CB80004E71D /* SingUPVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingUPVC.xib; sourceTree = "<group>"; };
+		EECFC56D2B173D760004E71D /* TalkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkVC.swift; sourceTree = "<group>"; };
+		EECFC56E2B173D760004E71D /* TalkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TalkVC.xib; sourceTree = "<group>"; };
+		EECFC5712B173D9C0004E71D /* ProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; };
+		EECFC5722B173D9C0004E71D /* ProfilVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfilVC.xib; sourceTree = "<group>"; };
+		EECFC5752B175F7E0004E71D /* TalkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkCell.swift; sourceTree = "<group>"; };
+		EECFC5762B175F7E0004E71D /* TalkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TalkCell.xib; sourceTree = "<group>"; };
+		EECFC5792B1762A00004E71D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EECFC57A2B1762A00004E71D /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		EEEDA7672B18911900F5471F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEF824502B3C1EF000117A5F /* MessageDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,135 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920F1262A6E738E6DAFB4C83 /* Pods_Talk_Me.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A021D57AA811D34DD1355D75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AC3CD098EFB274EFB5B8987 /* Pods-Talk_Me.debug.xcconfig */,
+				000D9248A1D2F77855A75FBB /* Pods-Talk_Me.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA336BC7FDD599E69229FAFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C934EECC1E6B28AADAF6021D /* Pods_Talk_Me.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE51612F2B442101009F56CB /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				EE5161312B442177009F56CB /* SwiftFile */,
+				EE5161322B44218D009F56CB /* XibFile */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		EE5161302B44214F009F56CB /* AllViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE51612F2B442101009F56CB /* Registration */,
+				EE5161332B4421F0009F56CB /* MainVC */,
+				EE5161362B442254009F56CB /* AllCells */,
+			);
+			path = AllViewControllers;
+			sourceTree = "<group>";
+		};
+		EE5161312B442177009F56CB /* SwiftFile */ = {
+			isa = PBXGroup;
+			children = (
+				EECFC55F2B173C6E0004E71D /* WelcomeVC.swift */,
+				EECFC5792B1762A00004E71D /* LoginVC.swift */,
+				EECFC5672B173CB80004E71D /* SingUPVC.swift */,
+			);
+			path = SwiftFile;
+			sourceTree = "<group>";
+		};
+		EE5161322B44218D009F56CB /* XibFile */ = {
+			isa = PBXGroup;
+			children = (
+				EECFC5602B173C6E0004E71D /* WelcomeVC.xib */,
+				EECFC57A2B1762A00004E71D /* LoginVC.xib */,
+				EECFC5682B173CB80004E71D /* SingUPVC.xib */,
+			);
+			path = XibFile;
+			sourceTree = "<group>";
+		};
+		EE5161332B4421F0009F56CB /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				EE5161352B44220F009F56CB /* XibFile */,
+				EE5161342B442203009F56CB /* SwiftFile */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		EE5161342B442203009F56CB /* SwiftFile */ = {
+			isa = PBXGroup;
+			children = (
+				EECFC56D2B173D760004E71D /* TalkVC.swift */,
+				EECFC5712B173D9C0004E71D /* ProfilVC.swift */,
+				EE6E2E262B4044700078E327 /* AdjustmentVC.swift */,
+			);
+			path = SwiftFile;
+			sourceTree = "<group>";
+		};
+		EE5161352B44220F009F56CB /* XibFile */ = {
+			isa = PBXGroup;
+			children = (
+				EECFC56E2B173D760004E71D /* TalkVC.xib */,
+				EECFC5722B173D9C0004E71D /* ProfilVC.xib */,
+				EE6E2E272B4044700078E327 /* AdjustmentVC.xib */,
+			);
+			path = XibFile;
+			sourceTree = "<group>";
+		};
+		EE5161362B442254009F56CB /* AllCells */ = {
+			isa = PBXGroup;
+			children = (
+				EECFC5752B175F7E0004E71D /* TalkCell.swift */,
+				EECFC5762B175F7E0004E71D /* TalkCell.xib */,
+			);
+			path = AllCells;
+			sourceTree = "<group>";
+		};
+		EE5161372B4422DD009F56CB /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				EEF824502B3C1EF000117A5F /* MessageDM.swift */,
+				EE6E2E2A2B4065260078E327 /* AdjustmentDM.swift */,
+				EE12F3E22B3D6C3100074E1D /* Constants.swift */,
+				EE418CD12B3F0B05009A65CC /* UserDefaults.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		EE5161382B442329009F56CB /* XcodeFile */ = {
+			isa = PBXGroup;
+			children = (
+				EECFC5482B173A640004E71D /* AppDelegate.swift */,
+				EECFC5542B173A650004E71D /* Assets.xcassets */,
+				EECFC5562B173A650004E71D /* LaunchScreen.storyboard */,
+			);
+			path = XcodeFile;
+			sourceTree = "<group>";
+		};
 		EECFC53C2B173A640004E71D = {
 			isa = PBXGroup;
 			children = (
 				EECFC5472B173A640004E71D /* Talk_Me */,
 				EECFC5462B173A640004E71D /* Products */,
+				A021D57AA811D34DD1355D75 /* Pods */,
+				AA336BC7FDD599E69229FAFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +212,11 @@
 		EECFC5472B173A640004E71D /* Talk_Me */ = {
 			isa = PBXGroup;
 			children = (
-				EECFC5482B173A640004E71D /* AppDelegate.swift */,
-				EECFC54A2B173A640004E71D /* SceneDelegate.swift */,
-				EECFC54C2B173A640004E71D /* ViewController.swift */,
-				EECFC54E2B173A640004E71D /* Main.storyboard */,
-				EECFC5542B173A650004E71D /* Assets.xcassets */,
-				EECFC5562B173A650004E71D /* LaunchScreen.storyboard */,
+				EE5161382B442329009F56CB /* XcodeFile */,
+				EE5161372B4422DD009F56CB /* DataModels */,
+				EE5161302B44214F009F56CB /* AllViewControllers */,
 				EECFC5592B173A650004E71D /* Info.plist */,
+				EEEDA7672B18911900F5471F /* GoogleService-Info.plist */,
 				EECFC5512B173A640004E71D /* Talk_Me.xcdatamodeld */,
 			);
 			path = Talk_Me;
@@ -77,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EECFC55C2B173A650004E71D /* Build configuration list for PBXNativeTarget "Talk_Me" */;
 			buildPhases = (
+				FE0D1F5152EE29C2821ADDEE /* [CP] Check Pods Manifest.lock */,
 				EECFC5412B173A640004E71D /* Sources */,
 				EECFC5422B173A640004E71D /* Frameworks */,
 				EECFC5432B173A640004E71D /* Resources */,
+				D74CFEB489F45F00228A3C00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,36 +283,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				EECFC5582B173A650004E71D /* LaunchScreen.storyboard in Resources */,
+				EECFC5782B175F7E0004E71D /* TalkCell.xib in Resources */,
+				EEEDA7682B18911A00F5471F /* GoogleService-Info.plist in Resources */,
+				EE6E2E292B4044700078E327 /* AdjustmentVC.xib in Resources */,
+				EECFC5622B173C6E0004E71D /* WelcomeVC.xib in Resources */,
+				EECFC5742B173D9C0004E71D /* ProfilVC.xib in Resources */,
+				EECFC5702B173D760004E71D /* TalkVC.xib in Resources */,
 				EECFC5552B173A650004E71D /* Assets.xcassets in Resources */,
-				EECFC5502B173A640004E71D /* Main.storyboard in Resources */,
+				EECFC57C2B1762A00004E71D /* LoginVC.xib in Resources */,
+				EECFC56A2B173CB80004E71D /* SingUPVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D74CFEB489F45F00228A3C00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Talk_Me/Pods-Talk_Me-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Talk_Me/Pods-Talk_Me-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Talk_Me/Pods-Talk_Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0D1F5152EE29C2821ADDEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Talk_Me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EECFC5412B173A640004E71D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EECFC54D2B173A640004E71D /* ViewController.swift in Sources */,
+				EEF824512B3C1EF000117A5F /* MessageDM.swift in Sources */,
+				EE6E2E282B4044700078E327 /* AdjustmentVC.swift in Sources */,
+				EE6E2E2B2B4065260078E327 /* AdjustmentDM.swift in Sources */,
+				EECFC5612B173C6E0004E71D /* WelcomeVC.swift in Sources */,
 				EECFC5532B173A640004E71D /* Talk_Me.xcdatamodeld in Sources */,
+				EE418CD22B3F0B05009A65CC /* UserDefaults.swift in Sources */,
+				EECFC57B2B1762A00004E71D /* LoginVC.swift in Sources */,
+				EECFC5692B173CB80004E71D /* SingUPVC.swift in Sources */,
+				EE12F3E32B3D6C3100074E1D /* Constants.swift in Sources */,
+				EECFC5772B175F7E0004E71D /* TalkCell.swift in Sources */,
+				EECFC56F2B173D760004E71D /* TalkVC.swift in Sources */,
+				EECFC5732B173D9C0004E71D /* ProfilVC.swift in Sources */,
 				EECFC5492B173A640004E71D /* AppDelegate.swift in Sources */,
-				EECFC54B2B173A640004E71D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EECFC54E2B173A640004E71D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EECFC54F2B173A640004E71D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EECFC5562B173A650004E71D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -174,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -234,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -286,16 +492,19 @@
 		};
 		EECFC55D2B173A650004E71D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC3CD098EFB274EFB5B8987 /* Pods-Talk_Me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWJG98258B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Talk_Me/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Talk me";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,16 +522,19 @@
 		};
 		EECFC55E2B173A650004E71D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000D9248A1D2F77855A75FBB /* Pods-Talk_Me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWJG98258B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Talk_Me/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Talk me";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

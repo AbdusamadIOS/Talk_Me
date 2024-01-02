@@ -24,13 +24,14 @@ class TalkVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        conteneirView.layer.cornerRadius = 20
         setupTabView()
         navBar()
         loadMessageFromFB()
         setTextFiled()
         configureTapGuest()
     }
+    
+    // MARK: Setting TextField
     private func setTextFiled() {
     
         self.messageTF.delegate = self
@@ -44,6 +45,7 @@ class TalkVC: UIViewController {
         view.endEditing(true)
     }
     
+    // MARK: Setting NavigationController
     func navBar() {
         
         navigationItem.hidesBackButton = true
@@ -76,6 +78,7 @@ class TalkVC: UIViewController {
         self.navigationController?.pushViewController(pro, animated: true)
     }
     
+    // MARK: Setting TableView
     func setupTabView() {
         
         tableView.dataSource = self
@@ -83,6 +86,7 @@ class TalkVC: UIViewController {
         tableView.register(UINib(nibName: "TalkCell", bundle: nil), forCellReuseIdentifier: "TalkCell")
     }
 
+    // MARK: Setting Send Button
     @IBAction func sendBtn(_ sender: UIButton) {
         
         let messageBody = messageTF.text
@@ -100,6 +104,7 @@ class TalkVC: UIViewController {
         }
     }
     
+    // MARK: Setting Load Message
     func loadMessageFromFB() {
         
         databesa.collection(Constants.messages)
@@ -131,6 +136,7 @@ class TalkVC: UIViewController {
         }
     }
     
+    // MARK: Setting UIAlert
     func showAlert(title: String) {
         
         let alert = UIAlertController(title: "Error", message: title, preferredStyle: .alert)
@@ -141,6 +147,7 @@ class TalkVC: UIViewController {
     }
 }
 
+// MARK: TableView datasource and delegete
 extension TalkVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -187,6 +194,7 @@ extension TalkVC: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
+// MARK: TextField Delegate
 extension TalkVC: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

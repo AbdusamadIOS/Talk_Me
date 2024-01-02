@@ -17,6 +17,8 @@ class ProfilVC: UIViewController {
         conteneirView.layer.cornerRadius = 30
         navBar()
     }
+    
+    // MARK: Setting Navigation Controller
     func navBar() {
         
         let logOut = UIBarButtonItem(image: UIImage(systemName: "rectangle.portrait.and.arrow.forward"), style: .done, target: self, action: #selector(logOut))
