@@ -73,9 +73,12 @@
                                                 </textField>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uG-0S-7rE">
                                                     <rect key="frame" x="263.33333333333331" y="0.0" width="49.666666666666686" height="45"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="eye.circle" catalog="system"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="eye.circle" catalog="system">
+                                                        <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </buttonConfiguration>
                                                     <connections>
                                                         <action selector="eyeBtn:" destination="-1" eventType="touchUpInside" id="mfg-yE-Gvi"/>
                                                     </connections>
@@ -119,7 +122,7 @@
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="Twk-uh-mKY" firstAttribute="leading" secondItem="NfY-E7-HtM" secondAttribute="leading" constant="50" id="BVS-Te-ura"/>
                         <constraint firstItem="zNu-b9-dDe" firstAttribute="top" secondItem="NfY-E7-HtM" secondAttribute="top" constant="60" id="RJQ-KS-BYA"/>
@@ -151,9 +154,6 @@
     </objects>
     <resources>
         <image name="eye.circle" catalog="system" width="128" height="123"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

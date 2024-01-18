@@ -19,7 +19,7 @@ class TalkVC: UIViewController {
     @IBOutlet weak var sendBtn: UIButton!
     
     var messages: [Message] = []
-    private let databesa    = Firestore.firestore()
+    private let databesa = Firestore.firestore()
     
     override func viewDidLoad() {
         super.viewDidLoad()

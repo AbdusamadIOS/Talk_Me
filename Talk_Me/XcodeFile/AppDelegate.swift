@@ -25,7 +25,7 @@ var window: UIWindow?
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
         
-        IQKeyboardManager.shared().enableDebugging = true
+        IQKeyboardManager.shared().isEnabled = true
         FirebaseApp.configure()
         return true
     }

@@ -118,7 +118,7 @@
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="rF0-72-tdV" firstAttribute="leading" secondItem="sSO-iq-MFF" secondAttribute="leading" constant="40" id="2NJ-oq-XLm"/>
                         <constraint firstAttribute="bottom" secondItem="gda-JZ-Va1" secondAttribute="bottom" constant="60" id="6wd-XR-fhY"/>
@@ -150,9 +150,6 @@
     </objects>
     <resources>
         <image name="eye.circle" catalog="system" width="128" height="123"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
